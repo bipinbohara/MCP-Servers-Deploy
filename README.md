@@ -3,8 +3,8 @@
 ### Python based mcp-servers
 Step 1: Clone repo and 
 ```
-git clone "mcp-server"
-cd "mcp-server"
+git clone <mcp-server>
+cd <mcp-server>
 conda create -n myenv python=3.11
 conda activate myenv
 pip install -r requirements.txt
@@ -21,8 +21,8 @@ mcpo --port 8001 --host 192.168.0.3 -- python mcp-server.py
 
 Step 1: Clone repo and build
 ```
-git clone https://github.com/hamid-vakilzadeh/AIRA-SemanticScholar.git
-cd AIRA-SemanticScholar
+git clone <mcp-server>
+cd <mcp-server>
 npm ci
 npm install
 npm run build   
