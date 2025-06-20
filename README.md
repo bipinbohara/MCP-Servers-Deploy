@@ -35,6 +35,10 @@ mcpo  --port 8086 --host 192.168.0.2 -- node build/index.js
 
 
 Step 3: Test
+Allow port through the firewall
+```
+sudo ufw allow 8087
+```
 ```
 curl -X 'POST' \
   'http://localhost:8086/papers-search-basic' \
