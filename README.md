@@ -28,6 +28,13 @@ npm install
 npm run build   
 ```
 
+ps:
+```
+rm -f node_modules/.bin/tsc
+npm install --save-dev --force typescript   # ensures latest + correct permissions
+npm run build
+```
+
 Step 2: run mcpo
 ```
 mcpo  --port 8086 --host 192.168.0.2 -- node build/index.js
