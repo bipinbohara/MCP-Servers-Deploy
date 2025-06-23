@@ -56,3 +56,10 @@ curl -X 'POST' \
   "limit": 10
 }'
 ```
+
+Copy files from remote server:
+```
+cp -r ~/Desktop/MCP-Servers/PubMed-MCP-Server/* ~/Desktop/MCP-Servers/rdiscovery/
+# OR
+rsync -av --exclude='__pycache__' ~/Desktop/MCP-Servers/PubMed-MCP-Server/ ~/Desktop/MCP-Servers/rdiscovery/
+```
