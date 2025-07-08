@@ -30,6 +30,7 @@ npm run build
 
 ps:
 ```
+rm -rf build
 rm -f node_modules/.bin/tsc
 npm install --save-dev --force typescript   # ensures latest + correct permissions
 npm run build
